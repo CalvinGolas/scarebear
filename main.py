@@ -1,5 +1,17 @@
-from pydub import AudioSegment
-from pydub.playback import play
+import pygame 
+import time
+import BearControl
+#The pygame mixer module automatically runs the audio in the background!
 
-song = AudioSegment.from_mp3("./voice.mp3")
-play(song)
+# initalizes the various moving parts
+pygame.mixer.init()
+pygame.mixer.music.load("widemouth.ogg")
+
+motors = BearControl.BearControl(26, 5)
+
+
+# start up the various functions
+pygame.mixer.music.play()
+print("done running all that boring stuff")
+
+time.sleep(20)

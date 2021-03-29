@@ -1,5 +1,6 @@
 import RPi.GPIO as GPIO
 import time
+
 #This will be used to define predertemined actions the bear motors will take and simplify theme so that making new stories is easier
 class BearControl:
 
