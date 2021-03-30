@@ -1,0 +1,93 @@
+import pygame
+from pygame import mixer
+import tkinter as tk
+import os
+
+def play_audio():
+    pass
+
+def pause_audio():
+    pass
+
+def finish_editing():
+    pass
+
+def back_ten_seconds():
+    pass
+
+def forward_ten_seconds():
+    pass
+
+def load_sound_file():
+    pass
+
+def rotate_head_back():
+    pass
+
+def rotate_head_front():
+    pass
+
+def shake_head():
+    pass
+
+def raise_fangs():
+    pass
+
+def lower_fangs():
+    pass
+
+# initialize the app
+root = tk.Tk()
+root.title("Scare Bear Story Editor")
+mixer.init()
+audioStatus = tk.StringVar()
+audioStatus.set("choosing")
+
+# code for the buttons
+# audio playback buttons
+playButton = tk.Button(root, text = "play", command = play_audio)
+playButton.config(font=('arial',20),bg="DodgerBlue2",fg="white",padx=7,pady=7)
+playButton.grid(row = 1, column = 1)
+
+pauseButton = tk.Button(root, text = "pause", command = pause_audio)
+pauseButton.config(font=('arial',20),bg="DodgerBlue2",fg="white",padx=7,pady=7)
+pauseButton.grid(row = 1, column = 2)
+
+backTenSecondsButton = tk.Button(root, text = "go back ten sec", command = back_ten_seconds)
+backTenSecondsButton.config(font=('arial',20),bg="DodgerBlue2",fg="white",padx=7,pady=7)
+backTenSecondsButton.grid(row = 1, column = 0)
+
+forwardTenSecondsButton = tk.Button(root, text = "skip forward ten sec", command = forward_ten_seconds)
+forwardTenSecondsButton.config(font=('arial',20),bg="DodgerBlue2",fg="white",padx=7,pady=7)
+forwardTenSecondsButton.grid(row = 1, column = 3)
+
+# fang controls
+raiseFangsButton = tk.Button(root, text = "add raise fangs cmd", command = raise_fangs)
+raiseFangsButton.config(font=('arial',20),bg="DodgerBlue2",fg="white",padx=7,pady=7)
+raiseFangsButton.grid(row = 2, column = 0)
+
+lowerFangsButton = tk.Button(root, text = "add lower fangs cmd", command = lower_fangs)
+lowerFangsButton.config(font=('arial',20),bg="DodgerBlue2",fg="white",padx=7,pady=7)
+lowerFangsButton.grid(row = 2, column = 3)
+
+# head rotation buttons
+rotateHeadBackButton = tk.Button(root, text = "add rotate head back cmd", command = rotate_head_back)
+rotateHeadBackButton.config(font=('arial',20),bg="DodgerBlue2",fg="white",padx=7,pady=7)
+rotateHeadBackButton.grid(row = 3, column = 0)
+
+shakeHeadButton = tk.Button(root, text = "add shake head cmd", command = shake_head)
+shakeHeadButton.config(font=('arial',20),bg="DodgerBlue2",fg="white",padx=7,pady=7)
+shakeHeadButton.grid(row = 4, column = 0)
+
+rotateHeadForwardButton = tk.Button(root, text = "add rotate head forward cmd", command = rotate_head_back)
+rotateHeadForwardButton.config(font=('arial',20),bg="DodgerBlue2",fg="white",padx=7,pady=7)
+rotateHeadForwardButton.grid(row = 3, column = 3)
+
+# button to finish editing
+finishEditingButton = tk.Button(root, text = "finish and upload", command = finish_editing)
+finishEditingButton.config(font=('arial',20),bg="DodgerBlue2",fg="white",padx=7,pady=7)
+finishEditingButton.grid(row = 5, column = 0)
+
+
+
+tk.mainloop()
