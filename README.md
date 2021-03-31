@@ -13,3 +13,14 @@
 ### Sources for the stories
 - https://www.creepypasta.com/mr-widemouth/
 - https://www.creepypasta.com/licking/
+
+### The plan to finish(TM)
+- Register pi for recnet (DONE)
+- Get fangs to reliably work (DONE: power at 3.5 and 4.7)
+- attach speaker, replace broken neck motor and glue bear together
+- Write bash script to run on bear startup
+- Create Git Repository to store stories
+- Code a story
+
+- Write a gui program to edit story audio and automatically write python code
+- Stretch: Add on git upload functionality

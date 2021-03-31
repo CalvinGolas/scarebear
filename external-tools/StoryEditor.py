@@ -2,21 +2,32 @@ import pygame
 from pygame import mixer
 import tkinter as tk
 import os
+# to deal with the offset we get from using get_pos, we add current time to the result we recieve
+currentTime = 0
+# make an array of tuples, first val = second time, second val = action
 
 def play_audio():
-    pass
+    if not mixer.music.get_busy():
+        mixer.music.play(start = currentTime)
 
 def pause_audio():
-    pass
+    # if it's playing, pause it and store the value in the milliseconds counter
+    if mixer.music.get_busy():
+        mixer.music.pause()
+        currentTime = mixer.music.get_pos() / 1000 + currentTime
 
 def finish_editing():
+    # upon exit, clear tuples with duplicate times
+    # now create a main.python file and write the program to it
     pass
 
 def back_ten_seconds():
+    #can't go past ending
     pass
 
 def forward_ten_seconds():
-    pass
+    # can't change value past zero
+
 
 def load_sound_file():
     pass

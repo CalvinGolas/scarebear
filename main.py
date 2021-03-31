@@ -12,6 +12,6 @@ motors = BearControl.BearControl(26, 5)
 
 # start up the various functions
 pygame.mixer.music.play()
-print("done running all that boring stuff")
-
+print("done running all that boring setup stuff")
+pygame.mixer.music.rewind()
 time.sleep(20)
