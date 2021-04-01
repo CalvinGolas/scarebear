@@ -2,6 +2,7 @@ import pygame
 from pygame import mixer
 import tkinter as tk
 import os
+
 # to deal with the offset we get from using get_pos, we add current time to the result we recieve
 currentTime = 0
 # make an array of tuples, first val = second time, second val = action
@@ -27,6 +28,7 @@ def back_ten_seconds():
 
 def forward_ten_seconds():
     # can't change value past zero
+    pass
 
 
 def load_sound_file():

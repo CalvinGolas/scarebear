@@ -9,6 +9,12 @@
 - https://www.pygame.org/docs/ref/mixer.html
 - https://stackoverflow.com/questions/44472162/how-do-play-audio-playsound-in-background-of-python-script
 - https://projectgurukul.org/python-music-player/
+- https://stackoverflow.com/questions/414164/how-can-i-select-random-files-from-a-directory-in-bash
+- https://www.rapidtables.com/code/linux/ls/ls-full-path.html
+- https://www.raspberrypi.org/documentation/configuration/wireless/headless.md
+- https://github.com/gitpython-developers/GitPython
+
+
 
 ### Sources for the stories
 - https://www.creepypasta.com/mr-widemouth/
@@ -18,8 +24,8 @@
 - Register pi for recnet (DONE)
 - Get fangs to reliably work (DONE: power at 3.5 and 4.7)
 - attach speaker, replace broken neck motor and glue bear together
-- Write bash script to run on bear startup
-- Create Git Repository to store stories
+- Write bash script to run on bear startup (PARTIAL)
+- Create Git Repository to store stories (DONE)
 - Code a story
 
 - Write a gui program to edit story audio and automatically write python code
