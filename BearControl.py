@@ -14,6 +14,9 @@ class BearControl:
     def straighten_head(self):
         self.neckServoPin.ChangeDutyCycle(self.get_angle(90))
 
+    def turn_head_specific(self, degree):
+        self.neckServoPin.ChangeDutyCycle(self.get_angle(degree))
+
     def vibrate_head(self):
         self.neckServoPin.ChangeDutyCycle(self.get_angle(45))
         time.sleep(.5)
