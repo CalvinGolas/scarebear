@@ -23,10 +23,10 @@
 ### The plan to finish(TM)
 - Register pi for recnet (DONE)
 - Get fangs to reliably work (DONE: power at 3.5 and 4.7)
-- attach speaker, replace broken neck motor and glue bear together
-- Write bash script to run on bear startup (PARTIAL)
+- attach speaker, replace broken neck motor and glue bear together 
+- Write bash script to run on bear startup (DONE)
 - Create Git Repository to store stories (DONE)
-- Code a story
+- Code a story (DONE)
 
 - Write a gui program to edit story audio and automatically write python code
 - Stretch: Add on git upload functionality

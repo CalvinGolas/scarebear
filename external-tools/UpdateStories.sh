@@ -17,4 +17,4 @@ git pull
 cd /home/pi/capstone
 git pull
 #now that we're all done, we can power off the pi safely
-#shutdown
+shutdown
