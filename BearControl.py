@@ -30,13 +30,9 @@ class BearControl:
 
     def lower_fangs(self):
         self.mouthServoPin.ChangeDutyCycle(4.7)
-        time.sleep(.5)
-        self.mouthServoPin.ChangeDutyCycle(0)
 
     def raise_fangs(self):
         self.mouthServoPin.ChangeDutyCycle(3.5)
-        time.sleep(.5)
-        self.mouthServoPin.ChangeDutyCycle(0)
 
 
     # halts the bear parts and cleans up any messes that may have been created

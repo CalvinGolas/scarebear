@@ -13,7 +13,8 @@
 - https://www.rapidtables.com/code/linux/ls/ls-full-path.html
 - https://www.raspberrypi.org/documentation/configuration/wireless/headless.md
 - https://github.com/gitpython-developers/GitPython
-
+- https://linuxhandbook.com/execute-shell-command-python/
+- os.execute
 
 
 ### Sources for the stories
@@ -23,10 +24,7 @@
 ### The plan to finish(TM)
 - Register pi for recnet (DONE)
 - Get fangs to reliably work (DONE: power at 3.5 and 4.7)
-- attach speaker, replace broken neck motor and glue bear together 
+- attach speaker, replace broken neck motor and glue bear together (DONE) 
 - Write bash script to run on bear startup (DONE)
 - Create Git Repository to store stories (DONE)
 - Code a story (DONE)
-
-- Write a gui program to edit story audio and automatically write python code
-- Stretch: Add on git upload functionality
